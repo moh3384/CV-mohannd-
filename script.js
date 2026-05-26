@@ -64,7 +64,7 @@ const projects = [
     link: "https://moh3384.github.io/Artificial--intelligence/",
     icon: "🤖",
     gallery: ["assets/images/img5.png", "assets/images/img6.png", "assets/images/img7.png", "assets/images/img8.png"],
-    tags: ["HTML5", "CSS3", "JavaScript",],
+    tags: ["HTML5", "CSS3", "JavaScript"],
   },
    {
     id: 6,
@@ -74,7 +74,7 @@ const projects = [
     link: "emotionschool.site",
     icon: "👁️",
     gallery: ["assets/images/img9.png", "assets/images/img10.png", "assets/images/img11.png", "👁️"],
-    tags: ["Python", "AI", "Machine Learning", "Computer Vision" ,"HTML5", "CSS3", "JavaScript",],
+    tags: ["Python", "AI", "Machine Learning", "Computer Vision" ,"HTML5", "CSS3", "JavaScript"],
   },
   {
     id: 7,
