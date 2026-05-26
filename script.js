@@ -74,7 +74,7 @@ const projects = [
     link: "emotionschool.site",
     icon: "👁️",
     gallery: ["assets/images/img9.png", "assets/images/img10.png", "assets/images/img11.png", "👁️"],
-    tags: ["Python", "AI", "Machine Learning", "Computer Vision"],
+    tags: ["Python", "AI", "Machine Learning", "Computer Vision" "HTML5", "CSS3", "JavaScript",],
   },
   {
     id: 7,
