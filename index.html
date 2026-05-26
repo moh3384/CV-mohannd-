@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="كهند محمد صلوي - مطور ويب ومتخصص ذكاء اصطناعي | خريج جامعة جازان " />
+  <meta name="keywords" content="مطور ويب, ذكاء اصطناعي, مهند صلوي, portfolio, web developer" />
+  <meta name="author" content="MOHANND MOHAMMED SALAWI" />
+  <title>مهند محمد صلوي | مطور ويب & ذكاء اصطناعي</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        MMS
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link active">الرئيسية</a></li>
+        <li><a href="#about" class="nav-link">عني</a></li>
+        <li><a href="#skills" class="nav-link">المهارات</a></li>
+        <li><a href="#projects" class="nav-link">المشاريع</a></li>
+        <li><a href="#certificates" class="nav-link">الشهادات</a></li>
+        <li><a href="#contact" class="nav-link">تواصل</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="hero-greeting reveal">مرحباً، أنا</p>
+        <!-- ===== قم بتعديل الاسم هنا ===== -->
+        <h1 class="hero-name reveal">
+          <span class="name-line">مهند</span>
+          <span class="name-line accent">صلوي</span>
+        </h1>
+        <!-- ===== قم بتعديل التخصص هنا ===== -->
+        <div class="hero-role reveal">
+          <span class="role-prefix">I'm a </span>
+          <span class="typed-text" id="typedText"></span>
+          <span class="cursor">|</span>
+        </div>
+        <!-- ===== قم بتعديل النبذة التعريفية هنا ===== -->
+        <p class="hero-bio reveal">
+          خريج جامعة جازان  — تخصص علوم الحاسب مسار الذكاء الاصطناعي.
+          شغوف بتطوير الويب وبناء تجارب رقمية استثنائية تجمع بين الجمال والوظيفة.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">استعرض أعمالي</a>
+          <a href="#contact" class="btn btn-ghost">تواصل معي</a>
+        </div>
+        <!-- ===== روابط التواصل الاجتماعي - عدّل الروابط هنا ===== -->
+        <div class="hero-socials reveal">
+          <a href="" target="_blank" class="social-link" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="mailto:mo0ohannd3305@gmail.com" class="social-link" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+          <a href="tel:0501871284" class="social-link" aria-label="Phone">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image reveal">
+        <div class="image-frame">
+          <div class="image-border"></div>
+          <!-- ===== قم بتغيير مسار الصورة الشخصية هنا ===== -->
+          <!-- استبدل "assets/images/profile.jpg" بمسار صورتك الشخصية -->
+          <div class="profile-placeholder" id="profileImg">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="50" cy="35" r="20" fill="rgba(99,102,241,0.3)" stroke="rgba(99,102,241,0.6)" stroke-width="2"/>
+              <path d="M10 90 C10 65 90 65 90 90" fill="rgba(99,102,241,0.2)" stroke="rgba(99,102,241,0.5)" stroke-width="2"/>
+            </svg>
+            <span>MMS</span>
+          </div>
+          <!-- uncommment the line below and add your photo path to show real photo -->
+          <!-- <img src="assets/images/profile.jpg" alt="مهند محمد صلوي" /> -->
+          <div class="image-tag tag-1">AI Developer</div>
+          <div class="image-tag tag-2">Web Dev</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// about</span>
+        <h2 class="section-title">من أنا</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <!-- ===== قم بتعديل نص السيرة الذاتية هنا ===== -->
+          <p>أنا <strong>مهند محمد صلوي</strong>، خريج جامعة جازان ، تخصص بكالوريوس علوم الحاسب مسار الذكاء الاصطناعي.</p>
+          <p>شغوف بتطوير مواقع الويب وتطبيقات الذكاء الاصطناعي. أسعى دائماً إلى بناء حلول رقمية مبتكرة تجمع بين التقنية الحديثة وتجربة المستخدم الاستثنائية.</p>
+          <p>تدربت في ميناء جازان في قسم تقنية المعلومات، وأعمل على مشاريع متعددة في مجال تطوير الويب والذكاء الاصطناعي.</p>
+          <div class="about-stats">
+            <!-- ===== قم بتعديل الإحصائيات هنا ===== -->
+            <div class="stat-item">
+              <span class="stat-number">13+</span>
+              <span class="stat-label">مشاريع منجزة</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number"></span>
+              <span class="stat-label"></span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number"></span>
+              <span class="stat-label"> </span>
+            </div>
+          </div>
+        </div>
+        <div class="about-info reveal">
+          <!-- ===== قم بتعديل المعلومات الشخصية هنا ===== -->
+          <div class="info-card">
+            <div class="info-row">
+              <span class="info-label">الاسم</span>
+              <span class="info-value">مهند محمد صلوي</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">الجامعة</span>
+              <span class="info-value">جامعة جازان</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">التخصص</span>
+              <span class="info-value">علوم الحاسب - ذكاء اصطناعي</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">الموقع</span>
+              <span class="info-value">جازان، المملكة العربية السعودية</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">البريد</span>
+              <span class="info-value">mo0ohannd3305@gmail.com</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">الجوال</span>
+              <span class="info-value">0501871284</span>
+            </div>
+          </div>
+          <a href="assets/CV_mohannd.pdf" download class="btn btn-primary" style="margin-top:1.5rem;display:inline-block;">
+            تحميل السيرة الذاتية
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// skills</span>
+        <h2 class="section-title">المهارات</h2>
+      </div>
+      <div class="skills-grid">
+        <!-- ===== قم بتعديل المهارات التقنية هنا ===== -->
+        <div class="skill-category reveal">
+          <h3 class="category-title">تطوير الويب</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">CSS3</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">PHP</span>
+                <span class="skill-percent">65%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="category-title">البرمجة والذكاء الاصطناعي</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Python / AI</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Java</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">MySQL / MongoDB</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">OOP</span>
+                <span class="skill-percent">50%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="category-title">أدوات المكتب</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Microsoft Word</span>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">PowerPoint</span>
+                <span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Excel</span>
+                <span class="skill-percent">88%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+          </div>
+        </div>
+        <!-- Tech Badges -->
+        <div class="tech-badges reveal">
+          <h3 class="category-title">التقنيات</h3>
+          <div class="badges-wrap">
+            <!-- ===== قم بإضافة أو تعديل التقنيات هنا ===== -->
+            <span class="badge">HTML5</span>
+            <span class="badge">CSS3</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">PHP</span>
+            <span class="badge">Java</span>
+            <span class="badge">Python</span>
+            <span class="badge">MySQL</span>
+            <span class="badge">MongoDB</span>
+            <span class="badge">AI/ML</span>
+            <span class="badge">Git</span>
+            <span class="badge">GitHub</span>
+            <span class="badge">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// projects</span>
+        <h2 class="section-title">المشاريع</h2>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <!-- يتم إنشاء المشاريع ديناميكياً من script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATES SECTION ===== -->
+  <section class="section section-dark" id="certificates">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// certificates</span>
+        <h2 class="section-title">الدورات والشهادات</h2>
+      </div>
+      <div class="certs-grid" id="certsGrid">
+        <!-- يتم إنشاء الشهادات ديناميكياً من script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// contact</span>
+        <h2 class="section-title">تواصل معي</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="contact-desc">هل لديك مشروع تريد تطويره؟ أو تريد التحدث عن فرصة عمل؟ لا تتردد في التواصل معي!</p>
+          <!-- ===== قم بتعديل معلومات التواصل هنا ===== -->
+          <div class="contact-items">
+            <a href="mailto:mo0ohannd3305@gmail.com" class="contact-item">
+              <div class="contact-icon">✉</div>
+              <div>
+                <span class="contact-label">البريد الإلكتروني</span>
+                <span class="contact-value">mo0ohannd3305@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:0501871284" class="contact-item">
+              <div class="contact-icon"></div>
+              <div>
+                <span class="contact-label">الجوال</span>
+                <span class="contact-value">0501871284</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-icon"></div>
+              <div>
+                <span class="contact-label">الموقع</span>
+                <span class="contact-value">جازان، المملكة العربية السعودية</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="" target="_blank" class="social-pill">GitHub</a>
+            <a href="mailto:mo0ohannd3305@gmail.com" class="social-pill">Email</a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <!-- ===== نموذج التواصل - يفتح تطبيق البريد الإلكتروني ===== -->
+          <div class="contact-form">
+            <div class="form-group">
+              <label class="form-label">الاسم</label>
+              <input type="text" id="contactName" class="form-input" placeholder="أدخل اسمك" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">البريد الإلكتروني</label>
+              <input type="email" id="contactEmail" class="form-input" placeholder="بريدك الإلكتروني" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">الرسالة</label>
+              <textarea id="contactMessage" class="form-input form-textarea" placeholder="اكتب رسالتك هنا..."></textarea>
+            </div>
+            <button class="btn btn-primary w-full" onclick="sendEmail()">إرسال الرسالة</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- ===== قم بتعديل نص الفوتر هنا ===== -->
+        <p class="footer-copy">© 2025 مهند محمد صلوي — جميع الحقوق محفوظة</p>
+        <p class="footer-made">صُنع بـ <span class="heart">♥</span> في جازان</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== PROJECT MODAL ===== -->
+  <div class="modal-overlay" id="projectModal" onclick="closeModal('projectModal')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal('projectModal')">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- ===== CERTIFICATE MODAL ===== -->
+  <div class="modal-overlay" id="certModal" onclick="closeModal('certModal')">
+    <div class="modal-content modal-cert" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal('certModal')">✕</button>
+      <div id="certModalBody"></div>
+    </div>
+  </div>
+
+  <!-- ===== SCROLL TO TOP ===== -->
+  <button class="scroll-top" id="scrollTop" onclick="scrollToTop()" aria-label="العودة للأعلى">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
