@@ -253,7 +253,7 @@ const typedRoles = [
   "Web Developer",
   "AI Enthusiast",
   "CS Graduate",
-  "Problem Solver",
+  
 ];
 
 // ===================================================
