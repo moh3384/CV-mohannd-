@@ -65,7 +65,7 @@ const projects = [
     title: "  متجر إلكتروني (مكتمل) ",
     shortDesc: "منصة تجارة إلكترونية متكاملة بميزات متقدمة وتجربة تسوق سلسة.",
     fullDesc: "منصة تجارة إلكترونية شاملة تتيح عرض المنتجات، إدارة سلة التسوق، وتجربة تسوق عصرية. تتميز بواجهة مستخدم جذابة وأداء عالي.",
-    link: "https://moh3384.github.io/test/",
+    link: "#",
     icon: "🛒",
     gallery: ["assets/images/img45.jpeg", "assets/images/img46.jpeg", "assets/images/img47.jpeg", "assets/images/img48.jpeg"],
     tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
