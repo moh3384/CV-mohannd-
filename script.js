@@ -67,22 +67,11 @@ const projects = [
     fullDesc: "منصة تجارة إلكترونية شاملة تتيح عرض المنتجات، إدارة سلة التسوق، وتجربة تسوق عصرية. تتميز بواجهة مستخدم جذابة وأداء عالي.",
     link: "https://moh3384.github.io/test/",
     icon: "🛒",
-    gallery: ["assets/images/img1.png", "assets/images/img2.png", "assets/images/img3.png", "assets/images/img4.png"],
+    gallery: ["assets/images/img45.png", "assets/images/img46.png", "assets/images/img47.png", "assets/images/img48.png"],
     tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
   },
 
 
-   
-  {
-    id: 4,
-    title: "منصة تجارة إلكترونية (قيد التطوير)",
-    shortDesc: "منصة تجارة إلكترونية متكاملة بميزات متقدمة وتجربة تسوق سلسة.",
-    fullDesc: "منصة تجارة إلكترونية شاملة تتيح عرض المنتجات، إدارة سلة التسوق، وتجربة تسوق عصرية. تتميز بواجهة مستخدم جذابة وأداء عالي.",
-    link: "https://moh3384.github.io/test/",
-    icon: "🛒",
-    gallery: ["assets/images/img1.png", "assets/images/img2.png", "assets/images/img3.png", "assets/images/img4.png"],
-    tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
-  },
   {
     id: 5,
     title: "موقع الذكاء الاصطناعي (مكتمل)",
@@ -126,6 +115,16 @@ const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
   },
 
+     {
+    id: 4,
+    title: "منصة تجارة إلكترونية (قيد التطوير)",
+    shortDesc: "منصة تجارة إلكترونية متكاملة بميزات متقدمة وتجربة تسوق سلسة.",
+    fullDesc: "منصة تجارة إلكترونية شاملة تتيح عرض المنتجات، إدارة سلة التسوق، وتجربة تسوق عصرية. تتميز بواجهة مستخدم جذابة وأداء عالي.",
+    link: "https://moh3384.github.io/test/",
+    icon: "🛒",
+    gallery: ["assets/images/img1.png", "assets/images/img2.png", "assets/images/img3.png", "assets/images/img4.png"],
+    tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
+  },
    
   {
     id: 9,
