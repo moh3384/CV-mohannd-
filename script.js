@@ -35,17 +35,31 @@ const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
   },
 
-      {
+
+ {
     id: 3,
-    title: "منصة عفار (قيد التطوير)",
-    shortDesc: "منصة عقار متكاملة توفر خدمه وتواصل سلس مع التاجر.",
-    fullDesc: "منصة عقار توفر تواصل سلس عن طريق الموقع وعن طريق الهاتف وعن طريق الواتساب وخدمات عصرية أخرى.", 
+    title: "موقع مدارس ابن رشد (مكتمل)",
+    shortDesc: "موقع رسمي لمدارس ابن رشد في جازان بتصميم توضيحي متميز.",
+    fullDesc: "موقع إلكتروني متكامل لمدارس ابن رشد في جازان، يقدم معلومات عن المنهج المقدم خلال الأسبوع مع طرح الواجبات والمهام ،التكاليف التعليمية المطلوبة من الطلاب،امكانية تسجيل اسم المعلم واسم المادة وتثبيتها ،أيضا عنوان الدرس والملاحظات والواجبات امكانية نقل البيانات الى أيام أخرى او إلى فصول أخرى.",
     link: "#",
-    icon: "",
-    gallery: ["assets/images/img36.png", "assets/images/img38.png", "assets/images/img33.png", "assets/images/img34.png"],
-    tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
+    icon: "🎓",
+    gallery: ["assets/images/img12.png", "assets/images/img13.png", "assets/images/img14.png", "assets/images/img113.png"],
+   tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
   },
 
+
+ {
+    id: 10,
+    title: "    موقع إلكتروني توليد جداول للمعلمين  ",
+    shortDesc: "      موقع إلكتروني يولد حصص للمعلمين بناء على الفصول المدرجة للمعلم   .",
+    fullDesc: "موقع إالكتروني يقوم بتوليدجداول بترتيب عشوائي لكن بدون تعارض الحصص أو الفصول أو المعلمين بناء على اسم المعلم واسم المادة أيضا هناك تحكم كامل بالموقع من قبل الإدارة بتوزيع الاوقات وايام العمل وساعات العمل ويتم طباعه أو حفظ الجداول كملف إكسل أو ملف بي دي اف أو طباعة",
+    link: "https://moh3384.github.io/table/",
+    icon: "🛒",
+    gallery: ["assets/images/img40.png", "assets/images/img41.png", "assets/images/img42.png", "assets/images/img43.png"],
+    tags: ["HTML5", "CSS3", "JavaScript",],
+  },
+
+   
   {
     id: 4,
     title: "منصة تجارة إلكترونية (قيد التطوير)",
@@ -64,7 +78,7 @@ const projects = [
     link: "https://moh3384.github.io/Artificial--intelligence/",
     icon: "🤖",
     gallery: ["assets/images/img5.png", "assets/images/img6.png", "assets/images/img7.png", "assets/images/img8.png"],
-    tags: ["HTML5", "CSS3", "JavaScript"],
+    tags: ["HTML5", "CSS3", "JavaScript",],
   },
    {
     id: 6,
@@ -74,7 +88,7 @@ const projects = [
     link: "emotionschool.site",
     icon: "👁️",
     gallery: ["assets/images/img9.png", "assets/images/img10.png", "assets/images/img11.png", "👁️"],
-    tags: ["Python", "AI", "Machine Learning", "Computer Vision" ,"HTML5", "CSS3", "JavaScript"],
+    tags: ["Python", "AI", "Machine Learning", "Computer Vision"],
   },
   {
     id: 7,
@@ -87,16 +101,19 @@ const projects = [
     tags: ["HTML5", "CSS3", "JavaScript", "Arabic"],
   },
 
-    {
+
+     {
     id: 8,
-    title: "موقع مدارس ابن رشد (مكتمل)",
-    shortDesc: "موقع رسمي لمدارس ابن رشد في جازان بتصميم تعليمي متميز.",
-    fullDesc: "موقع إلكتروني متكامل لمدارس ابن رشد في جازان، يقدم معلومات عن المدرسة، برامجها التعليمية، أخبارها، وإمكانية التواصل مع الإدارة.",
+    title: "منصة عفار (قيد التطوير)",
+    shortDesc: "منصة متكاملة لتحضير الطلاب عن طريق مسح الباركود.",
+    fullDesc: "منصة تحضير طلاب تشمل جميع الفصول في المدرسة تحتوي على توليد باركود مستقل لكل طالب ويتم تسجيل الحضور عن طريق المسح فقط تشمل عده صفحات تحكم وعرض الغياب والحضور وفلترة بالتواريخ السابقة.", 
     link: "#",
-    icon: "🎓",
-    gallery: ["assets/images/img12.png", "assets/images/img13.png", "assets/images/img14.png", "👁️"],
-   tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
+    icon: "",
+    gallery: ["assets/images/img36.png", "assets/images/img38.png", "assets/images/img33.png", "assets/images/img34.png"],
+    tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
   },
+
+   
   {
     id: 9,
     title: "موقع مستشفى الأسنان (متوقف حاليا)",
@@ -121,7 +138,7 @@ const certificates = [
     title: "تنفيذ دورة الأمن السيبراني",
     issuer: "Online Course",
     date: "2025",
-    desc: "تم تنفيذ هذه الدورة من قبل المعلم مهند صلوي واستهدفت الطلاب والمعليمن وأولياء الامور لرفع الوعي في الاستخدام التقني وتجنب مخاطر الهجمات السيبرانية",
+    desc: "تم تنفيذ هذه الدورة من قبل الملعم مهند صلوي واستهدفت الطلاب والمعليمن وأولياء الامور لرفع الوعي في الاستخدام التقني وتجنب مخاطر الهجمات السيبرانية",
     icon: "",
     // ===== لإضافة صورة الشهادة: أزل التعليق وأضف المسار =====
      image: "assets/images/img28.png",
@@ -154,7 +171,7 @@ const certificates = [
     title: "تنفيذ دورة أصدقاء البيئة",
     issuer: "حضوري ",
     date: "2026",
-    desc: "تم تنفيذ هذه الدورة من قبل المعلم مهند صلوي واستهدفت الطلاب لرفع الوعي البيئي وتاثير البيئة على الصحة العامة للإنسان",
+    desc: "تم تنفيذ هذه الدورة من قبل الملعم مهند صلوي واستهدفت الطلاب لرفع الوعي البيئي وتاثير البيئة على الصحة العامة للإنسان",
     icon: "",
     // ===== لإضافة صورة الشهادة: أزل التعليق وأضف المسار =====
      image: "assets/images/img29.jpeg",
@@ -166,7 +183,7 @@ const certificates = [
     title: "تنفيذ دورة أبطال الإنترنت",
     issuer: "حضوري ",
     date: "2026",
-    desc: "تم تنفيذ هذه الدورة من قبل المعلم مهند صلوي واستهدفت الطلاب لرفع الوعي في استخدام الانترنت ومشاركة البيانات بحذر",
+    desc: "تم تنفيذ هذه الدورة من قبل الملعم مهند صلوي واستهدفت الطلاب لرفع الوعي في استخدام الانترنت ومشاركة البيانات بحذر",
     icon: "",
     // ===== لإضافة صورة الشهادة: أزل التعليق وأضف المسار =====
      image: "assets/images/img30.jpeg",
