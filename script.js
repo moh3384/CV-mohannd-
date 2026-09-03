@@ -22,7 +22,7 @@ const projects = [
     icon: "",
     // ===== صور المشروع في الـ Gallery - أضف مساراتها هنا =====
     // مثال: "assets/images/gym-1.jpg"
-    gallery: ["assets/images/img64.png", "assets/images/img65.png", "assets/images/img66.png", "assets/images/img67.png"],
+    gallery: ["assets/images/img64.jpeg", "assets/images/img65.png", "assets/images/img66.jpeg", "assets/images/img67.png"],
     // ===== التقنيات المستخدمة =====
    tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
   },
