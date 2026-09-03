@@ -11,23 +11,25 @@
 const projects = [
 
 
-
  {
     id: 1,
-    title: "منصة أُسَر (مكتمل)",
-    shortDesc: " منصة سعودية تجمع الأسر المنتجة والعملاء في منصة واحدة ",
-    fullDesc: "منصة تعرض الأسر المنتجة على الخريطة بحيث العميل يستطيع العثور على الاسر القريبة منه بمساحة تغطي 100 كيلو من موقع العميل ",
+    title: "منصة saas متكاملة",
+    shortDesc: " منصة توفر خدمات التدقيق الداخلي والحوكمة بشكل كامل للشركة",
+    fullDesc: "منصة توفر خدمات التدقيق الداخلي والحوكمة بشكل كامل للشركة",
     // ===== رابط المشروع - عدّل الرابط هنا =====
-    link: "https://osar.site/",
+    link: "",
     // ===== الأيقونة/الإيموجي التعبيري للمشروع =====
     icon: "",
     // ===== صور المشروع في الـ Gallery - أضف مساراتها هنا =====
     // مثال: "assets/images/gym-1.jpg"
-    gallery: ["assets/images/img50.png", "assets/images/img51.png", "assets/images/img52.png", "assets/images/img53.png"],
+    gallery: ["assets/images/img64.png", "assets/images/img65.png", "assets/images/img66.png", "assets/images/img67.png"],
     // ===== التقنيات المستخدمة =====
    tags: ["HTML5", "CSS3", "JavaScript", "PHP","MYSQL"],
   },
 
+   
+
+ 
 
    
 
